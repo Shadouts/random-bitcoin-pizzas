@@ -14,3 +14,6 @@ npm run build;
 npm run start;
 ```
 Then, browse to http://localhost:3000/
+
+#### Inspiration
+Inspiration from [Maximillian Laumeister](https://github.com/MaxLaumeister) and his [bitlisten](https://www.bitlisten.com/) site as well as my desire to learn websockets.
