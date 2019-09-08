@@ -1,6 +1,9 @@
 # Random Bitcoin Pizzas!
 Everyone's Bitcoin transactions generate an unlimited number of random pizzas.
 
+### What?
+WebSocket amplifier. Pizza randomizer. Code storyteller.
+
 ### Why?
 What would Bitcoin be without pizza? Well, it'd be just an experiment like this.
 
