@@ -45,7 +45,7 @@ function registerFranchise (gm:WebSocket.Server):void {
       prepTable.preparePizza();
       const pizza:Pizza = prepTable.bakePizza();
 
-      gm.clients.forEach((customer:WebSocket):void => {
+      (gm.clients as WebSocket[]).forEach((customer:WebSocket):void => {
         customer.send(JSON.stringify(pizza));
       });
     } catch (err) {
@@ -64,7 +64,7 @@ function turnOnMuzak (gm:WebSocket.Server):void {
   waterRounds = global.setInterval(():void => {
     let customerCount:number = 0;
 
-    gm.clients.forEach((customer:WebSocket):void => {
+    (gm.clients as WebSocket[]).forEach((customer:WebSocket):void => {
       customerCount++;
 
       if ((customer as any).isAlive === false) {

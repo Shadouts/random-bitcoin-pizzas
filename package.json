@@ -5,7 +5,11 @@
   "main": "server.ts",
   "author": "Shadouts",
   "license": "MIT",
-  "private": false,
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shadouts/random-bitcoin-pizzas.git"
+  },
   "scripts": {
     "build": "webpack",
     "start": "node ./dist/server.js",

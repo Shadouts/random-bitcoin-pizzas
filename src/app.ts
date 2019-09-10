@@ -41,7 +41,7 @@ const pizzaPan = (pizza:Pizza):void => {
     slice.appendChild(sauce);
     slice.appendChild(cheese);
     slice.appendChild(toppingsList);
-    slice.appendChild(toppings);
+    toppingsList.appendChild(toppings);
 
     placemat.appendChild( document.createElement('br') );
   } catch (err) {
